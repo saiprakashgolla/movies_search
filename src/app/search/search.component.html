@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="form-group col-xs-4">
+  <input type="search" [(ngModel)]="movie.find" name="movie" #movie="ngModel" class="form-control" placeholder="Search">
+</div>
+  <!-- <button class="btn btn-primary" (click)="search()">Search</button> -->
+  <div class="col-xs-12 text-center" style="padding-top:20px;">
+    <div class="col-sm-4 col-xs-6" *ngFor = "let image of totalmovies | filter:movie.find">
+  <img src="{{image.Poster}}" height="300px" width="80%">
+<div style="padding:15px 0px;"><b>{{image.Title}} </b></div>
+</div>
+    
+  </div>
+</div>
