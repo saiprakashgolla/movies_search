@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.title{
+    padding:15px 0px;
+    border: 1px solid rgba(134, 60, 60, 0.5);
+    font-size: 15px;
+    background-color: rgba(218, 22, 22, 0.8);
+    color: white;
+    /* box-shadow: 5px 10px 8px #888888; */
+}
+.image{
+    padding-bottom:35px;
+    border-radius: 5px;
+}

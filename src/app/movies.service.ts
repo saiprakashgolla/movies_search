@@ -9,12 +9,12 @@ export class MoviesService {
 
   // * API Call page 1 * //
   getdata(){
-    return this.http.get("http://www.omdbapi.com/?i=tt3896198&apikey=a9e6f133&s=jurassic&page=1")
+    return this.http.get("http://www.omdbapi.com/?i=tt3896198&apikey=a9e6f133&s=batman&page=1")
     
   }
   // * API Call page 2 * //
 movieData(){
-  return this.http.get("http://www.omdbapi.com/?i=tt3896198&apikey=a9e6f133&s=jurassic&page=2")
+  return this.http.get("http://www.omdbapi.com/?i=tt3896198&apikey=a9e6f133&s=batman&page=2")
 }
 
   // searchData(search){

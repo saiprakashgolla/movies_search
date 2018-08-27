@@ -21,6 +21,7 @@ export class SearchComponent implements OnInit {
   public title:any;
   public moviedata:any;
   public totalmovies:any = [];
+  public textInput:any;
   constructor(
     private moviesService:MoviesService
   ) { }
@@ -71,8 +72,25 @@ export class SearchComponent implements OnInit {
         finlTotalmovies.push(this.totalmovies[i])
       }
       console.log('ppppppppppppp',finlTotalmovies) */
+      // this.new = this.movie;
+      // this.new2 = this.new.find;
+      // this.textInput = this.new2;
+     
 
+
+      // var timeout = null;
+      
+      // this.textInput.onkeyup = function (e) {
+      
+         
+      //     clearTimeout(timeout);
+      
+      //     timeout = setTimeout(function () {
+      //         console.log('Input Value:', this.textInput.value);
+      //     }, 300);
+      // };
   }
+
   // search(){
   //   this.new = this.movie;
   //   this.new2 = this.new.find;
